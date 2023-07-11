@@ -15,3 +15,6 @@ sudo cp index.html /var/www/html/
 
 # Restart Apache to apply changes
 sudo systemctl restart httpd
+
+# get the service status
+netstat -tlpn |grep "httpd"

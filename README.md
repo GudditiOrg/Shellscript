@@ -22,4 +22,5 @@ Please ensure that Docker is installed on your system before running the Docker-
 
 You are welcome to modify and customize these scripts as per your specific needs.
 ## Output Looks Like
-![image](https://github.com/GudditiOrg/Shellscript/assets/87116202/287ce46a-9162-4166-af1e-0b81d2d6ba9f)
+![image](https://github.com/GudditiOrg/Shellscript/assets/87116202/51c2a56a-253a-4ef9-b34a-67087014b04f)
+

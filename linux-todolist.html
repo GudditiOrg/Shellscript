@@ -23,6 +23,10 @@
             display: inline-block;
             width: 80%;
         }
+        ul.subtasks {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -31,6 +35,20 @@
         <li>
             <input type="checkbox" id="task1">
             <label for="task1">Learn basic Linux commands</label>
+            <ul class="subtasks">
+                <li>
+                    <input type="checkbox" id="subtask1_1">
+                    <label for="subtask1_1">Introduction to the terminal</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="subtask1_2">
+                    <label for="subtask1_2">Navigating the file system</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="subtask1_3">
+                    <label for="subtask1_3">Working with files and directories</label>
+                </li>
+            </ul>
         </li>
         <li>
             <input type="checkbox" id="task2">
@@ -47,6 +65,20 @@
         <li>
             <input type="checkbox" id="task5">
             <label for="task5">Learn shell scripting</label>
+            <ul class="subtasks">
+                <li>
+                    <input type="checkbox" id="subtask5_1">
+                    <label for="subtask5_1">Writing basic shell scripts</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="subtask5_2">
+                    <label for="subtask5_2">Conditional statements and loops</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="subtask5_3">
+                    <label for="subtask5_3">Command-line arguments and variables</label>
+                </li>
+            </ul>
         </li>
     </ul>
 </body>

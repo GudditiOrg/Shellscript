@@ -10,11 +10,10 @@ sudo systemctl start httpd
 # Enable Apache to start on system boot
 sudo systemctl enable httpd
 
+# Copy the index.html file
+sudo cp linux-todolist.html /var/www/html/
 # Moving file linux-todolist.html -> index.html
 sudo mv  linux-todolist.html  index.html
-# Copy the index.html file
-sudo cp index.html /var/www/html/
-
 # Restart Apache to apply changes
 sudo systemctl restart httpd
 
